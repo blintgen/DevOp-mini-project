@@ -14,7 +14,7 @@ const searchOMDB = async (query: string) => {
     console.log('Data:', data);
     return data;
   } catch (err) {
-    console.log('an error occurred', err);
+    console.log('an error occurred ', err);
     return [];
   }
 };
